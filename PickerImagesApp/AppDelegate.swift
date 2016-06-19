@@ -5,6 +5,7 @@
 //  Created by Curtis Ruhlman on 12/3/15.
 //  Copyright © 2015 Curtis Ruhlman. All rights reserved.
 //
+//  Begin managing versions locally and at github - 6/19/2016
 
 import UIKit
 
