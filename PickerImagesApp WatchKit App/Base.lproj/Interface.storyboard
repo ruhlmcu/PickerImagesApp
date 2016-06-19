@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <scenes>
+        <!--Nest-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Nest" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PickerImagesApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="146" height="130" alignment="center" layout="vertical" id="66u-Lq-dPk">
+                            <items>
+                                <picker width="50" height="50" alignment="center" verticalAlignment="center" style="sequence" id="8nQ-Sq-F2Q"/>
+                                <label width="40" height="40" alignment="center" verticalAlignment="bottom" text="00" textAlignment="center" baselineAdjustment="alignCenters" id="mvV-cU-v6i">
+                                    <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <group width="127" height="30" alignment="center" verticalAlignment="bottom" id="9w4-30-mTp">
+                            <items>
+                                <button width="40" height="60" alignment="left" verticalAlignment="bottom" title="Set" id="R49-gk-mwf">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.47265625" green="0.47265625" blue="0.47265625" alpha="0.6944773706896552" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="9"/>
+                                    <variation key="device=watch42mm">
+                                        <accessibilityTraits key="accessibilityTraits" notEnabled="YES"/>
+                                    </variation>
+                                </button>
+                                <button width="40" height="60" alignment="right" title="Reset" id="4Kk-ps-Giy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.47265625" green="0.47265625" blue="0.47265625" alpha="0.6944773706896552" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="9"/>
+                                    <variation key="device=watch42mm">
+                                        <accessibilityTraits key="accessibilityTraits" notEnabled="YES"/>
+                                    </variation>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="myGroup" destination="66u-Lq-dPk" id="INp-e9-YzZ"/>
+                        <outlet property="myPicker" destination="8nQ-Sq-F2Q" id="mhi-QB-ryv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="253" y="531.5"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+</document>
